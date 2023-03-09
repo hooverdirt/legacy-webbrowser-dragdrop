@@ -16,7 +16,7 @@ Another (brilliant) senior dev Scott discovers that the issue is in an included 
 1. Either find an alternative way thru possibly JS? Me: That would still require a control that accepts Drag & Drop events.
 2. Me: How about I check my extensive Delphi collection and see if I wrote something like this in the past in Delphi...
 
-I didn't find a wrapper control but I dive into the Windows/IE API.  A few days later, I pass the control back to Scott. To my absolute suprise and shock, he implements it into the product within a day. He says 'it worked with a few changes' (most likely the highlighting part/drag over - I'm 100% certain he changed some of the code...). We regression test everything. All looks good and it's pushed to prod.
+I didn't find a wrapper control but I dive into the Windows/IE API.  A few days later, I pass the control back to Scott. To my absolute surprise, shock and horror, he implements it into the product within a day. He says 'it worked with a few changes' (most likely the highlighting part/drag over code as that required more knowledge of JS...). We regression test everything. All looks good and it's pushed to prod.
 
 How to compile:
 
