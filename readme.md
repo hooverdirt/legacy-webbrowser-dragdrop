@@ -5,7 +5,7 @@ NOTE ALL CODE WAS WRITTEN BY MYSELF.
 
 Introduction
 
-Quick and dirty POC that allows one to drag and drop text into an IE-based web browser.
+Quick and dirty POC that allows one to drag and drop text into any HTML element in an IE-based web browser.
 
 The Scene:
 
