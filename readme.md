@@ -11,12 +11,13 @@ The Scene:
 
 It's early 2010 - and the product's use of an external control (CSEXWB) is reportedly causing issues in the newly released Windows 7. We have a problem - but support has been holding the fort for now, but we need a fix - the sooner the better.
 
-Another (brilliant) senior dev Scott discovers that the issue is in an included COM control - and we don't have the sources to it/or we can't compile C++ code. Either way, We spitball:
+Another (brilliant) senior dev Scott discovers that the issue is in a COM control part of earlier mentioned control - and we don't have the sources to it/or we can't compile C++ code. Either way, so we spitball:
 
 1. Either find an alternative way thru possibly JS? Me: That would still require a control that accepts Drag & Drop events.
 2. Me: How about I check my extensive Delphi collection and see if I wrote something like this in the past in Delphi...
 
 I didn't find a wrapper control but I dive into the Windows/IE API.  A few days later, I pass the control back to Scott. To my absolute surprise, shock and horror, he implements it into the product within a day. He says 'it worked with a few changes' (most likely the highlighting part/drag over code as that required more knowledge of JS...). We regression test everything. All looks good and it's pushed to prod.
+
 
 How to compile:
 
